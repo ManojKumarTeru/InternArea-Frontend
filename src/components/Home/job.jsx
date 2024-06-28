@@ -1,10 +1,9 @@
 import React,{useEffect,useState} from 'react'
-import JobData from '../Data/JobData'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 function Job() {
 
-    const [currentSlide,setCurrentSlide]=useState(0)
+    const [,setCurrentSlide]=useState(0)
     const [selectedCategory,setSelectedCategory]= useState("Big Brands")
     const [JobData, setJobData]=useState([])
 

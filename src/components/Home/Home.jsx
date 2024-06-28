@@ -10,7 +10,7 @@ import Job from './job'
 
 function Home() {
 
-    const [currentSlide,setCurrentSlide]=useState(0)
+    const [,setCurrentSlide]=useState(0)
     const [selectedCategory,setSelectedCategory]= useState("Big Brands")
     const [internshipData,setInternshipData]=useState([])
     useEffect(()=>{
@@ -161,7 +161,7 @@ fetchData();
                </div>
                <p class="px-4 py-3 w-5/6 text-center text-sm text-gray-600 font-bold ">Sign in with Google</p>
   </a>
-  <a to="/register">
+  <a href='#' to="/register">
     <button className='btn6 '> Register</button></a>
     </div>
 </div>

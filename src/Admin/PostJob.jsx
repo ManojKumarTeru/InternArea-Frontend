@@ -52,7 +52,7 @@ function PostJOb() {
           AdditionalInfo:additionalInfo,
   
       }
-  axios.post("http://localhost:5000/api/postJob",bodyJosn).then((res)=>{
+  axios.post("https://internarea-backend-jbx2.onrender.com/api/postJob",bodyJosn).then((res)=>{
       console.log(res.data)
     }).catch((err)=>
     console.log(err))

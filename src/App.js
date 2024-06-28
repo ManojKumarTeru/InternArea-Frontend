@@ -15,7 +15,6 @@ import { useEffect } from 'react';
 import Profile from './profile/profile';
 import AdminLogin from './Admin/AdminLogin';
 import Adminpanel from './Admin/Adminpanel';
-import Postinternships from './Admin/Postinternships';
 import ViewAllApplication from './Admin/ViewAllApplication'
 import DetailApplication from './Applications/DetailApplication';
 import UserApplicatiom from './profile/UserApplication';
