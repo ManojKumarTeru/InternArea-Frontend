@@ -161,8 +161,8 @@ fetchData();
                </div>
                <p class="px-4 py-3 w-5/6 text-center text-sm text-gray-600 font-bold ">Sign in with Google</p>
   </a>
-  <a href='#' to="/register">
-    <button className='btn6 '> Register</button></a>
+  <button  to="/register">
+    <button className='btn6 '> Register</button></button>
     </div>
 </div>
     </div>
